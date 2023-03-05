@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(135deg,#485563,#29323c );
+}
+
+
+.container1{
+    background-image: linear-gradient(135deg,#00d2ff,#3a7bd5);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.row2{
+    font-size: 2rem;
+    display: flex;
+    
+}
+img{
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+@media only screen and (max-width: 500px){
+    .container1{
+        margin-top: 2rem;
+        padding-left: 5rem;
+        display: flex;
+    flex-direction: column;
+    }
+}
+.fa-instagram,.fa-linkedin,.fa-twitter{
+    margin-right: 2rem;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#c21500,#ffc500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-instagram:hover,.fa-linkedin:hover,.fa-twitter:hover{
+    transform: translateY(-20%);
+    transition: 1.2s;
+    background: -webkit-linear-gradient(#dc2424,#4a569d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-address-card{
+    background: -webkit-linear-gradient(#c21500,#ffc500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
